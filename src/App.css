@@ -1,0 +1,40 @@
+.App {
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+	flex-direction: column;
+	align-items: center;
+}
+
+.app-container {
+	width: 400px;
+}
+
+.loading-big {
+	display: flex;
+	justify-content: center;
+}
+
+.action-img {
+	width: 14px;
+}
+
+.list-group-item__content {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
+.list-group-item__buttons {
+	min-width: fit-content;
+}
+
+.list-group-item__buttons .btn {
+	margin-left: 10px;
+	margin-bottom: 4px;
+}
+
+.form-buttons .btn {
+	margin-right: 10px;
+	margin-bottom: 4px;
+}
